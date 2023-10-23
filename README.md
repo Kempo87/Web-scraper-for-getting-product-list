@@ -1,6 +1,6 @@
-OPIS PROGRAMU: służy do pobierania zawartości strony internetowej i wydobywania określonych elementów z użyciem wyrażenia XPath. Oto opis programu:
+# OPIS PROGRAMU: służy do pobierania zawartości strony internetowej i wydobywania określonych elementów z użyciem wyrażenia XPath. Oto opis programu:
 
-Importowanie niezbędnych modułów:
+## Importowanie niezbędnych modułów:
 
 click: To moduł do obsługi wiersza poleceń, który umożliwia uruchomienie programu z argumentami z linii poleceń.
 lxml.html: To moduł, który pozwala na przetwarzanie HTML przy użyciu wyrażeń XPath.
@@ -15,6 +15,6 @@ Ostatecznie znalezione elementy są wyświetlane na konsoli.
 
 Warunek if __name__ == "__main__": sprawdza, czy program jest uruchamiany jako plik główny, a jeśli tak, to uruchamia funkcję main().
 
-Aby uruchomić ten program, musisz podać adres URL i wyrażenie XPath jako argumenty, na przykład:
+### Aby uruchomić ten program, musisz podać adres URL i wyrażenie XPath jako argumenty, na przykład:
 python program.py "https://www.example.com" "//div[@class='example']/p"
 Program pobierze zawartość strony o podanym adresie URL, a następnie wydobędzie i wyświetli wszystkie elementy ze strony. 
